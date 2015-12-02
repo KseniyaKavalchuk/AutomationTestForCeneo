@@ -5,9 +5,10 @@
     <classes>
       <class name="selenium_maven_eclipse.CommonCeneoTestMVN">
         <methods>
-          <include name="Login"/>
           <include name="BeforeTest"/>
           <include name="AfterTest"/>
+          <include name="selectCategory"/>
+          <include name="selectFilters"/>
         </methods>
       </class> <!-- selenium_maven_eclipse.CommonCeneoTestMVN -->
     </classes>
