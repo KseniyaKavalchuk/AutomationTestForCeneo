@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium_maven_eclipse.CommonCeneoTestMVN">
+      <class name="selenium_maven_eclipse.CommonCeneoMVNTest">
         <methods>
-          <include name="BeforeTest"/>
-          <include name="AfterTest"/>
-          <include name="selectCategory"/>
-          <include name="selectFilters"/>
+          <include name="selectProduct"/>
+          <include name="OpenWebSite"/>
+          <include name="closeBrowser"/>
+          <include name="addProductToBasket"/>
         </methods>
-      </class> <!-- selenium_maven_eclipse.CommonCeneoTestMVN -->
+      </class> <!-- selenium_maven_eclipse.CommonCeneoMVNTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
